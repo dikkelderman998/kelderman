@@ -1,0 +1,1483 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="en" class="no-js lt-ie11 lt-ie10 lt-ie9 lt-ie8 lt-ie7 b-chrome chrome-85 "> <![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js lt-ie11 lt-ie10 lt-ie9 lt-ie8 b-chrome chrome-85 "> <![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js lt-ie11 lt-ie10 lt-ie9 b-chrome chrome-85 "> <![endif]-->
+<!--[if IE 9]><html lang="en" class="no-js lt-ie11 lt-ie10 b-chrome chrome-85 "> <![endif]-->
+<!--[if gt IE 0]><!--> <html lang="en" class=" no-js b-chrome chrome-85 "> <!--<![endif]-->
+<head>
+<title>Real Estate Education | Beginners Guide | Real Estate InvestingReal Estate Education | Beginners Guide | Real Estate Investing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"48fa1faed2","applicationID":"218803579","transactionName":"Ig1aEEJeXA8ERR1XQQgGURcfQlgMFg==","queueTime":4,"applicationTime":210,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={licenseKey:"48fa1faed2",applicationID:"218803579"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(c(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(5),c=e(6),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,n){s[n]=i(p+n,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(l+"tracer",[u.now(),e,t],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&d("lcp",[t[t.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var n=Math.round(e.timeStamp),t={type:e.type};n<=p.now()?t.fid=p.now()-n:n>p.offset&&n<=Date.now()?(n-=p.offset,t.fid=p.now()-n):n=p.now(),g=!0,d("timing",["fi",n,t])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(4),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e){function n(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,n,!1)}n.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],5:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],6:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],7:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function t(t,r,i,o){if(!p.aborted||o){e&&e(t,r,i);for(var a=n(i),c=v(t),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[t]];return d&&d.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(t)}function y(e,n){u(e,function(e,t){n=n||"feature",w[t]=n,n in s||(s[n]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(5),s={},d={},p=n.exports=i();p.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(w,function(n,t){e[n]||(e[n]=t)});var t=a();f("mark",["onload",t+E.offset],null,"api"),f("timing",["load",t]);var r=l.createElement("script");r.src="https://"+e.agent,n.parentNode.insertBefore(r,n)}}function i(){"complete"===l.readyState&&o()}function o(){f("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-E.offset}var c=(new Date).getTime(),f=e("handle"),u=e(5),s=e("ee"),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,y=g&&g.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var h=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1177.min.js"},b=g&&y&&y[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:c,now:a,origin:h,features:{},xhrWrappable:b,userAgent:d};e(1),e(2),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),f("mark",["firstbyte",c],null,"api");var x=0,O=e(7)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(6),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof t?t(r,a):t||{}}catch(u){p([u,"",[r,a,i],c])}s(n+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(n+"err",[r,a,d],c),d}finally{s(n+"end",[r,a,f],c)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<n.length;f++)c=n[f],a=e[c],r(a)||(e[c]=t(a,u?c+i:i,o,c))}function s(t,r,i){if(!f||n){var o=f;f=!0;try{e.emit(t,r,i,n)}catch(a){p([a,t,r,i])}f=o}}function d(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){p([r])}for(var i in e)c.call(e,i)&&(n[i]=e[i]);return n}function p(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+<meta name="apple-itunes-app" content="app-id=657773184" />
+<meta name="google-play-app" content="app-id=com.biggerpockets.bp_android">
+<meta name="copyright" content="Copyright (c)2004-2020 BiggerPockets, LLC." />
+<meta name="robots" content="index, follow" />
+<link rel="apple-touch-icon" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-180-eec12a468f6d70e3da1448c499ad7a41faf922bd1bfdbf754f14fd35a64389d5.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-180-eec12a468f6d70e3da1448c499ad7a41faf922bd1bfdbf754f14fd35a64389d5.png" />
+<link rel="apple-touch-icon" sizes="167x167" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-167-a3ed51b0398389a5e0580c23d6a2811bec2b398f22cd37aec451d07aaccc8909.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-152-19c049040e3370c5b8cbb551c1d47ce09ac097bd3739ed029fd091762a461591.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-144-c766a16641e0849fa4bf770a7d849859276d4bd9f235564e66272f507ed82e6b.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-120-24c50e78a6017cfdb8ef5c56223d0f7d22926ae265220b17c6fe1d0e94916e6f.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-114-eae30f3121f33063ddbd5824b9a68a21ef5edb8ad57cdedc7e2e14cdcc2ba63c.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-76-737fb80ab964f5904bfcab28c237880f56caef1c9c42bf48450f25eff3e7b16b.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-72-0d1a0307328b2d8df81a36fb2db2e1802363fff0dee6f061c48415859e023f9e.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.biggerpockets.com/assets/logo/logoman-white-bg-57-29d4e580e70618491e661976db0d48726699c48c67f43125e75afa8211f5d12d.png" />
+<meta property="og:image" content="http://www.biggerpockets.com/blog/wp-content/uploads/2014/11/Real-Estate-Investing-Share-Image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://www.biggerpockets.com/blog/wp-content/uploads/2014/11/Real-Estate-Investing-Share-Image.jpg" />
+<meta name="description" content="Educating Yourself On Real Estate Investing Is The First Step To Becoming A Successful Real Estate Investor. Learn More About Where To Start In This Chapter.Educating Yourself On Real Estate Investing Is The First Step To Becoming A Successful Real Estate Investor. Learn More About Where To Start In This Chapter." />
+<meta property="og:description" content="Educating Yourself On Real Estate Investing Is The First Step To Becoming A Successful Real Estate Investor. Learn More About Where To Start In This Chapter.Educating Yourself On Real Estate Investing Is The First Step To Becoming A Successful Real Estate Investor. Learn More About Where To Start In This Chapter." />
+<meta name="twitter:description" content="Educating Yourself On Real Estate Investing Is The First Step To Becoming A Successful Real Estate Investor. Learn More About Where To Start In This Chapter.Educating Yourself On Real Estate Investing Is The First Step To Becoming A Successful Real Estate Investor. Learn More About Where To Start In This Chapter." />
+<meta name="twitter:site" content="@BiggerPockets" />
+<meta name="twitter:title" content="Real Estate Education | Beginners Guide | Real Estate InvestingReal Estate Education | Beginners Guide | Real Estate Investing" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i|Oswald:200,300,400,700" rel="stylesheet">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="2CzaJyiG+q6uea2zm7mPtvDCFlGvoTPSdJRsevTYlLOjnS4i4DozkzlT5KjyFaYLaBLEBPwLdmxjxt5LN1ypDQ==" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="canonical" href="https://www.biggerpockets.com/guides/ultimate-real-estate-investing-guide/real-estate-investing-education" />
+<link rel="stylesheet" media="all" href="https://www.biggerpockets.com/assets/application-f769c132f3f4e256da7d9975294b0ca44f5e0ac06bcca35d0ed0cb50aee38261.css" />
+<link rel="preload" href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg" type="image/svg+xml">
+<script src="/optimizely/16611630582.js"></script>
+<script type="text/javascript">
+      window.ad_slots = {};
+
+      googletag.cmd.push(function() {
+        var default_responsive_mapping = googletag.sizeMapping()
+          .addSize([320, 100], [320, 50])
+          .addSize([770, 100], [728, 90]).build();
+
+              var bp_general_970x90_af_mapping = googletag.sizeMapping()
+        .addSize([320, 100], [320, 50])
+        .addSize([770, 100], [728, 90])
+        .addSize([990, 100], [970, 90]).build();
+      ad_slots['bp_general_970x90_af_mapping'] = googletag
+        .defineSlot('/1009271/bp_general_970x90_af', [[728, 90], [970, 90]], 'div-gpt-ad-1403795439692-0')
+        .defineSizeMapping(bp_general_970x90_af_mapping)
+        .addService(googletag.pubads());
+
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>
+<!--[if lt IE 9]>
+      <script src="https://www.biggerpockets.com/assets/html5-cb296689845b37d18ef835c44a8a644de87b9925f43a5a3091915795b893dcd4.js"></script>
+    <![endif]-->
+<link rel="preconnect" href="https://stats.pusher.com">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.3.1/pusher.min.js" integrity="sha256-lulToZoE1vwhiRXmFsx+v2/alaqwuy2+uSI8zkImwes=" crossorigin="anonymous"></script>
+<script>
+
+  var pusherAuthHeaders = {};
+  var csrfMeta = document.querySelector('meta[name=csrf-token]');
+
+  if (csrfMeta) {
+    pusherAuthHeaders['X-CSRF-Token'] = csrfMeta.getAttribute('content');
+  }
+
+  var pusher = new Pusher('739b5ee6c7d15dc647ff', {
+    cluster: 'mt1',
+    forceTLS: true,
+    authEndpoint: '/pusher/authentications',
+    auth: {
+      headers: pusherAuthHeaders
+    }
+  });
+</script>
+<meta name="optimizely-bucketing-id" content="745657cd-de2f-4dbe-8072-b642673ec05c">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://api.segment.io">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-335540-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-335540-1');
+</script>
+<script type="text/javascript">
+    !function(){
+      var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+
+      analytics.load("tih4QqIhtTRcO0vOFVWMAoWRAhWsQGww");
+
+      window.delayPageTrackingCounter = 0;
+      window.delayPageTracking = setInterval(function() {
+        if (false || window.optimizely != undefined || window.delayPageTrackingCounter > 20) {
+          analytics.page({"visitorType":"New","platform":"desktop","city":null,"state":null,"source":null,"medium":null,"campaign":null,"term":null,"content":null});
+          window.analytics.identify({ "Test: pro_checkout_redesign_v2_fixed": "control", "Test: pro_confirm_cancel": "control", "Test: direct_onboarding_investors_to_dashboard": "test", "Test: journal_offer_from_projournalupgrade_route": "control", "Test: journal_promo_from_upgrade_form_dropdown": "control", "Test: test_forums_top_nav_members": "test", "Test: test_forums_top_nav_guests": "test", "Test: pro_upgrade_for_journal": "control", "Test: auto_expand_agent_filters": "control", "Test: book_discount_dashboard_ad": "control", "Test: optimistic_sign_up_v2": "control", "Test: password_security_check": "test", "Test: nav_signup_modal_v3": "control", "Test: confirm_cancel_90d_v2": "control", "Test: hidden_feed_items": "test", "Test: pro2019_show_premium": "control", "Test: path_to_purchase_link": "control", "Test: confirm_cancel_testimonial": "test", "Test: dashboard_recommended_articles": "control", "Test: homepage_performance": "test", "Test: lender_intro_steps": "control", "Test: min_password_length": "control", "Test: blog_quick_signup": "control", "Test: test_networking_oct2018": "control", "Test: homepage_signup": "test", "Test: related_topics_top": "control", "Test: sign_up_to_reply_to_topics": "control", "Test: deal_diaries_dashboard": "control", "Test: mobile_app_links": "control", "Test: forum_nav_item_split_test": "control", "Test: recombee_split_test": "test", "Test: modify_viewed_topic": "control", "Test: nav_hide_topics_header": "control", "Test: biggerpockets_ad_on_forum": "control", "Test: investment_prompt_float_left": "test", "Test: tenant_screening_destination": "control", "Test: google_login_bottom": "test", "Test: new_loans_page_first_design": "control", "Test: signup_page_experience_test": "control", "Test: webinar_dashboard_modal_calendar": "control", "Test: ptp_calculator_on_dashboard": "", "Test: skip_onboarding": "", "Test: new_onboarding_flow": "", "Test: signup_full_page_overlay": "", "Test: mobile_sign_up_screen_redesign": "", "Test: create_post_forums_cta": "" });
+          window.analytics.track("Shown navigation store variant", { path: "/guides/ultimate-real-estate-investing-guide/real-estate-investing-education", referrer: "https://www.google.com/", date: "2020-09-07 12:22:48 +0000", variant: "a" });window.analytics.track("Shown webinar preview videos", { path: "/guides/ultimate-real-estate-investing-guide/real-estate-investing-education", referrer: "https://www.google.com/", date: "2020-09-07 12:22:48 +0000", videos: false });
+          
+          clearInterval(window.delayPageTracking);
+        }
+
+        window.delayPageTrackingCounter++;
+      }, 100);
+    }}();
+  </script>
+<script type="text/javascript">
+    (function() {
+      var snapshotName = "";
+
+      if (snapshotName) {
+        var scriptTag = document.createElement("script");
+        scriptTag.type = 'text/javascript';
+        var inlineScript = document.createTextNode('var CE_SNAPSHOT_NAME = "' + snapshotName + '";');
+        scriptTag.appendChild(inlineScript);
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(scriptTag, node);
+      }
+    })();
+  </script>
+</head>
+<body class="" data-return-to="https://www.biggerpockets.com/guides/ultimate-real-estate-investing-guide/real-estate-investing-education" data-user-level="" data-user-type="guest" data-logged-in="false">
+<nav class="site-navigation at-top" id="nav-header">
+<div class="nav-container">
+<div class="nav-logo">
+<a class="home-link" aria-label="BiggerPockets Home" href="https://www.biggerpockets.com/"><object type="image/svg+xml" data="https://www.biggerpockets.com/assets/logo/logo-1ac27e1791bcad86c95d3326c6c66a014be277075f97e9799825ba209612583a.svg" fallback="https://www.biggerpockets.com/assets/logo/logo-7fd2f5a159814b628a99a6bc5a2514f225dec3965eadfb2714a29823a004f3be.png"></object></a>
+</div>
+<div class="nav-search-form-container">
+<form class="nav-search-form" role="search" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class="nav-search-input-container">
+<button class="nav-search-type" type="button">
+<span class="nav-search-type-current">All</span>
+</button>
+<div class="nav-search-type-options">
+<div class="nav-search-type-option nav-search-type-option-active" tabindex="0" role="button" data-search-type="all">All</div>
+<div class="nav-search-type-option " tabindex="0" role="button" data-search-type="users">Members</div>
+<div class="nav-search-type-option " tabindex="0" role="button" data-search-type="companies">Companies</div>
+<div class="nav-search-type-option " tabindex="0" role="button" data-search-type="wordpress">Blog</div>
+<div class="nav-search-type-option " tabindex="0" role="button" data-search-type="topics">Forums</div>
+<div class="nav-search-type-option " tabindex="0" role="button" data-search-type="podcast">Podcast</div>
+<div class="nav-search-type-option " tabindex="0" role="button" data-search-type="webinars">Webinars</div>
+</div>
+<input type="text" name="term" id="nav-search-text" placeholder="Search BiggerPockets" autocomplete="off" spellcheck="false" aria-label="search bar" />
+</div>
+<button class="search-close" type="button"><svg class="icon " aria-labelledby="close-thin1665" aria-hidden="true"><title id="close-thin1665">Close Thin</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#close-thin" /></svg></button>
+</form> </div>
+<button class="navigation-toggle">
+<div class="navigation-toggle-inner">
+<svg class="icon " aria-labelledby="menu4fd3" aria-hidden="true"><title id="menu4fd3">Menu</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#menu" /></svg> <span class="navigation-toggle-text">Menu</span>
+</div>
+<span class="nav-live-indicator nav-live-disabled">
+<svg class="icon " aria-labelledby="video-control-play63c0" aria-hidden="true"><title id="video-control-play63c0">Video Control Play</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#video-control-play" /></svg>
+</span>
+<div class="navigation-toggle-inner" id="redesign-one-test-nav-close">
+<svg class="icon " aria-labelledby="close-thina52a" aria-hidden="true"><title id="close-thina52a">Close Thin</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#close-thin" /></svg> <span class="navigation-toggle-text">CLOSE</span>
+</div>
+</button>
+<div class="nav-main" id="redesign-one-test">
+<ul class="site-sections">
+<div class="nav-mobile-logged-out-user-actions">
+<a href="/signup?cta_source=TopNav&amp;return_to=https%3A%2F%2Fwww.biggerpockets.com%2Fguides%2Fultimate-real-estate-investing-guide%2Freal-estate-investing-education">
+<svg class="icon " aria-labelledby="userbe92" aria-hidden="true"><title id="userbe92">User</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#user" /></svg> Log in &nbsp;/&nbsp; Sign up
+</a> </div>
+<li class="nav-section nav-js-positioned-content">
+<a class="section-link" href="/forums">
+<span class="section-link-inner">Forums</span>
+</a>
+<div class="nav-section-content no-sub-headings">
+<a class="nav-subsection" href="/forums">
+<span class="subsection-name">Newest Posts</span>
+</a>
+<a class="nav-subsection" href="/topics/popular">
+<span class="subsection-name">Trending Discussions</span>
+</a>
+<a class="nav-subsection nav-subsection-followed-forums" href="/topics/monitored">
+<span class="subsection-name">Followed Forums</span>
+</a>
+<a class="nav-subsection" href="/forums/-real-estate-news-current-events">
+<span class="subsection-name">Real Estate News & Current Events</span>
+</a>
+<a class="nav-subsection" href="/forums/1">
+<span class="subsection-name">Landlord Forums & Rental Property Questions</span>
+</a>
+<a class="nav-subsection" href="/forums/311-buying-selling-real-estate">
+<span class="subsection-name">Buying & Selling Real Estate</span>
+</a>
+<a class="nav-subsection" href="/forums/88-real-estate-deal-analysis-and-advice">
+<span class="subsection-name">Deal Analysis</span>
+</a>
+<a class="nav-subsection" href="/forums">
+<span class="subsection-name nav-see-all-link">See All</span>
+</a> </div>
+</li>
+<li class="nav-section">
+<a class="section-link" href="/blog/">
+<span class="section-link-inner">Education</span>
+</a>
+<div class="nav-section-content education">
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Read</h3>
+</div>
+<a class="nav-subsection" href="/blog/">
+<span class="subsection-name">BiggerPockets Blog</span>
+</a>
+<a class="nav-subsection" href="/insights/articles">
+<span class="subsection-name">BPInsights: Expert Analysis</span>
+</a>
+<a class="nav-subsection" href="/rei/coronavirus-content-resources">
+<span class="subsection-name">Coronavirus Content & Resources</span>
+</a>
+<a class="nav-subsection" href="/guides">
+<span class="subsection-name">Guides</span>
+</a>
+<a class="nav-subsection" href="/rei/glossary">
+<span class="subsection-name">Glossary</span>
+</a>
+<a class="nav-subsection" href="/reviews">
+<span class="subsection-name">Reviews</span>
+</a>
+<a class="nav-subsection" href="/member-blogs">
+<span class="subsection-name">Member Blogs</span>
+</a> </div>
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Watch</h3>
+</div>
+<a class="nav-subsection" href="/webinars">
+<span class="subsection-name">Webinars</span>
+</a>
+<a class="nav-subsection" href="/videos">
+<span class="subsection-name">Video Library</span>
+</a>
+<a class="nav-subsection" target="_blank" data-track-click="true" data-extra-data="{&quot;event&quot;:&quot;free-course-link&quot;}" href="/financial-independence-blueprint/new">
+<span class="subsection-name">Financial Independence Blueprint</span>
+</a>
+<a class="nav-subsection" href="/intro-to-rei/overview">
+<span class="subsection-name">Intro to Real Estate: Rentals</span>
+</a> </div>
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Listen</h3>
+</div>
+<a class="nav-subsection" href="/podcast">
+<span class="subsection-name">BiggerPockets Real Estate Podcast</span>
+</a>
+<a class="nav-subsection" href="/moneyshow">
+<span class="subsection-name">BiggerPockets Money Podcast</span>
+</a>
+<a class="nav-subsection" href="/biggerpockets-business-podcast">
+<span class="subsection-name">BiggerPockets Business Podcast</span>
+</a>
+</div>
+<div class="nav-aside">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Topics</h3>
+</div>
+<a class="nav-subsection" href="/hubs/business-operations">
+<span class="subsection-name">Business Operations</span>
+</a>
+<a class="nav-subsection" href="/hubs/finance">
+<span class="subsection-name">Finance</span>
+</a>
+<a class="nav-subsection" href="/hubs/finding-deals">
+<span class="subsection-name">Finding Deals</span>
+</a>
+<a class="nav-subsection" href="/hubs/property-management">
+<span class="subsection-name">Property Management</span>
+</a> <a class="nav-subsection" href="/hubs/property-types">
+<span class="subsection-name">Property Types</span>
+</a>
+<a class="nav-subsection" href="/hubs/strategy">
+<span class="subsection-name">Strategy</span>
+</a> </div>
+</div>
+</li>
+<li class="nav-section">
+<a class="section-link" href="/real-estate-companies">
+<span class="section-link-inner network-section-link">Network</span>
+</a>
+<div class="nav-section-content network">
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Recommended Vendors</h3>
+</div>
+<a class="nav-subsection" href="/real-estate-companies/find-real-estate-agent-directory">
+<span class="subsection-name">Real Estate Agents</span>
+</a>
+<a class="nav-subsection" href="/loans">
+<span class="subsection-name">Mortgage Lenders</span>
+</a>
+<a class="nav-subsection" href="/real-estate-companies">
+<span class="subsection-name">Companies</span>
+</a>
+<a class="nav-subsection" href="/real-estate-companies/hard-money-lenders">
+<span class="subsection-name">Hard Money Lenders</span>
+</a>
+<a class="nav-subsection" href="/contractors">
+<span class="subsection-name">Contractors</span>
+</a>
+<a class="nav-subsection" href="/real-estate-companies/investment">
+<span class="subsection-name">Investment Companies</span>
+</a> </div>
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Search</h3>
+</div>
+<a class="nav-subsection" href="/search/users">
+<span class="subsection-name">Members</span>
+</a>
+<a class="nav-subsection" href="/forums/521-events-and-happenings">
+<span class="subsection-name">Events</span>
+</a>
+<a class="nav-subsection" href="/forums/517-marketplace?filter_marketplace_tags%5B%5D=96">
+<span class="subsection-name">Jobs</span>
+</a> </div>
+</div>
+</li>
+<li class="nav-section nav-section-tools">
+<a class="section-link" href="/calc"><span class="section-link-inner tools-section-link">Tools</span></a>
+<div class="nav-section-content tools">
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Calculators</h3>
+</div>
+<a class="nav-subsection" href="/rental-property-calculator">
+<span class="subsection-name">Rental Property</span>
+</a> <a class="nav-subsection" href="/flip-analysis">
+<span class="subsection-name">Fix and Flip</span>
+</a> <a class="nav-subsection" href="/brrrr-calculator">
+<span class="subsection-name">BRRRR</span>
+</a> <a class="nav-subsection" href="/rehab-estimator">
+<span class="subsection-name">Rehab Estimator</span>
+</a> </div>
+<div class="nav-topics">
+<div id="calc-column-two"></div>
+<a class="nav-subsection" href="/wholesaling-calculator">
+<span class="subsection-name">Wholesaling</span>
+</a> <a class="nav-subsection" href="/mortgage-calculator">
+<span class="subsection-name">Mortgage Payment</span>
+</a> <a class="nav-subsection" href="/house-flip-estimation-calculator">
+<span class="subsection-name">70% Rule</span>
+</a> <a class="nav-subsection nav-airbnb-calculator-link" href="/airbnb-calculator">
+<span class="subsection-name">Airbnb</span>
+</a> </div>
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Services</h3>
+</div>
+<a class="nav-subsection" href="/insights/property-searches/new">
+<span class="subsection-name">BPInsights: Property Insights</span>
+</a>
+<a class="nav-subsection" href="/tools/landlord-resources">
+<span class="subsection-name">Landlord Resources</span>
+</a>
+<a class="nav-subsection" href="https://get.biggerpockets.com/forms/index">
+<span class="subsection-name">Lease Agreement Packages</span>
+</a> </div>
+<div class="nav-aside nav-insights-featured">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">New Feature</h3>
+</div>
+<div class="nav-featured">
+<img alt="BPInsights (beta)" class="nav-featured-logo" src="https://www.biggerpockets.com/assets/logo/insights/insights-slate-beta-5f5bf42521ef118bbf56951394d820dd9dcc25ebd737a450298cd6d3bb31a1fd.svg" />
+<p class="nav-featured-description">
+Quickly analyze a property address or ZIP Code to compare your rent in your neighborhood.
+</p>
+<a class="button nav-featured-button" href="/insights/property-searches/new">Analyze a property</a>
+</div>
+</div>
+</li>
+<li class="nav-section nav-js-positioned-content">
+<a class="section-link" href="/real-estate-listings">
+<span class="section-link-inner">Find Deals</span>
+</a>
+<div class="nav-section-content no-sub-headings">
+<a class="nav-subsection" href="/real-estate-listings?property_listings=true">
+<span class="subsection-name">Real Estate Listings</span>
+</a>
+<a class="nav-subsection" rel="nofollow noopener noreferrer" target="_blank" href="http://biggerpockets.foreclosure.com/">
+<span class="subsection-name">Find Foreclosures <svg class="icon external-link-icon" aria-labelledby="external-link0b83" aria-hidden="true"><title id="external-link0b83">External Link</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#external-link" /></svg></span>
+</a>
+<a class="nav-subsection" href="/forums/517-marketplace">
+<span class="subsection-name">Ads, Jobs, and Other</span>
+</a> </div>
+</li>
+<li class="nav-section">
+<a class="section-link" href="/store">
+<span class="section-link-inner">Bookstore</span>
+</a>
+<div class="nav-section-content store">
+<div class="nav-topics">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Real Estate Books</h3>
+</div>
+<a class="nav-subsection" href="/store/advanced-tax-strategies-ultimate">
+<span class="subsection-name">The Book on Advanced Tax Strategies</span>
+</a> <a class="nav-subsection" href="/store/bidding-to-buy-ultimate">
+<span class="subsection-name">Bidding to Buy</span>
+</a>
+<a class="nav-subsection nav-see-all-link" href="/store">See all books</a>
+</div>
+<div class="nav-aside">
+<div class="subheading-wrapper">
+<h3 class="nav-subheading">Featured Book</h3>
+</div>
+<div class="nav-featured-book-wrapper">
+<img class="nav-featured-book-image" alt="BiggerPockets Wealth Magazine book cover" src="https://assets2.biggerpockets.com/uploads/book_type/book_cover/146/large_1598981049-issue_4_cover_cropped.jpg" />
+<div class="nav-featured-book-content">
+<span class="nav-featured-book-title">BiggerPockets Wealth Magazine</span>
+<p class="nav-featured-book-description">Written by financial journalists and data scientists, get 60+ pages of newsworthy content, expert-driven advice, and data-backed research written in a clear way to help you navigate your tough investment decisions in an ever-changing financial climate! Subscribe today and get the Oct/Nov issue delivered to your door!</p>
+<a class="button get-the-book-button" href="/store/wealth-magazine-one-year">Get the Magazine</a>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nav-section section-partial">
+<a class="item-link " href="/membership-types">
+<span class="section-link-inner">Pricing</span>
+</a> </li>
+</ul>
+</div>
+<div class="nav-controls">
+<div class="nav-search">
+<button class="show-search-button"><svg class="icon " aria-labelledby="search-novab009" aria-hidden="true"><title id="search-novab009">Search Nova</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#search-nova" /></svg></button>
+</div>
+<div class="nav-logged-out-actions nav-new-buttons">
+<a class="nav-log-in-button" data-remote-modal="true" data-custom-modal-class="global-signup new-sign-up-modal" href="/login?return_to=https%3A%2F%2Fwww.biggerpockets.com%2Fguides%2Fultimate-real-estate-investing-guide%2Freal-estate-investing-education">Log In</a>
+<a class="nav-sign-up-button" data-remote-modal="false" data-custom-modal-class="global-signup new-sign-up-modal" data-show-easy-sign-up="false" href="/onboarding/new?cta_source=TopNav">Sign up</a>
+</div>
+<div class="nav-logged-out-actions-tablet">
+<a data-remote-modal="true" data-custom-modal-class="global-signup new-sign-up-modal" href="/signup?cta_source=TopNav&amp;return_to=https%3A%2F%2Fwww.biggerpockets.com%2Fguides%2Fultimate-real-estate-investing-guide%2Freal-estate-investing-education">
+<svg class="icon " aria-labelledby="user1046" aria-hidden="true"><title id="user1046">User</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#user" /></svg>
+</a> </div>
+</div>
+</div>
+</nav>
+<div class="nav-search-suggestions-overlay"></div>
+<div class="nav-search-suggestions ">
+<div class="nav-search-suggestions-inner"></div>
+<div class="nav-search-suggestions-quick-links">
+<span class="nav-search-suggestions-quick-links-title">Quick search links</span>
+<div class="nav-search-suggestions-quick-links-list">
+<a class="nav-search-suggestions-quick-link" href="/podcast">Podcast</a>
+<a class="nav-search-suggestions-quick-link" href="/real-estate-companies/hard-money-lenders">Hard Money Lenders</a>
+<a class="nav-search-suggestions-quick-link" href="/store">Books</a>
+</div>
+</div>
+</div>
+<div id="javascript-flash-messages-placeholder"></div>
+<div class="page-content with-explore-app-links">
+<div class="guide-navigation-container">
+<ul class="guide-navigation-header">
+<li class="guide-navigation-header-item">
+<div class="guide-navigation-header-short-heading">
+GUIDE
+</div>
+<div class="guide-navigation-header-info">
+<span class="guide-navigation-header-info-heading">
+</span>
+<span class="guide-navigation-header-info-subheading">
+</span>
+</div>
+</li>
+</ul>
+<ul class="guide-navigation-header-mobile">
+<li class="guide-navigation-header-item">
+<div class="guide-navigation-header-short-heading">
+GUIDE
+</div>
+<div class="guide-navigation-header-icon-container">
+<svg class="icon guide-navigation-header-closed-icon" aria-labelledby="menucdcb" aria-hidden="true"><title id="menucdcb">Menu</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#menu" /></svg>
+<svg class="icon guide-navigation-header-open-icon" aria-labelledby="sort-up7e41" aria-hidden="true"><title id="sort-up7e41">Sort Up</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#sort-up" /></svg>
+</div>
+</li>
+</ul>
+<ul class="guide-navigation-menu">
+<a href="/files/329/download">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+UBG
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Download
+</span>
+<span class="guide-navigation-menu-info-subheading">
+The Ultimate Beginner&#39;s Guide to Real Estate Investing!
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/introduction">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+00
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Prologue
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Ultimate Beginner&#39;s Guide to Real Estate Investing!
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/how-to-invest-in-real-estate">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+01
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 1
+</span>
+<span class="guide-navigation-menu-info-subheading">
+How to Invest in Real Estate: An Introduction
+</span>
+</div>
+ </li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/real-estate-investing-education">
+<li class="guide-navigation-menu-item active-chapter">
+<div class="guide-navigation-menu-short-heading">
+02
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 2
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Real Estate Investing Education
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/investment-niches-and-strategies">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+03
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 3
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Real Estate Investments: Niches and Strategies
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/create-your-real-estate-investing-business-plan">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+04
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 4
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Create your Real Estate Investing Business Plan
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/how-to-find-investment-properties">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+05
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 5
+</span>
+<span class="guide-navigation-menu-info-subheading">
+How to Find Investment Properties
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/real-estate-financing">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+06
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 6
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Real Estate Financing
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/real-estate-marketing">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+07
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 7
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Real Estate Marketing
+</span>
+</div>
+</li>
+</a> <a href="/guides/ultimate-real-estate-investing-guide/real-estate-exit-strategies">
+<li class="guide-navigation-menu-item guide-chapter">
+<div class="guide-navigation-menu-short-heading">
+08
+</div>
+<div class="guide-navigation-menu-info">
+<span class="guide-navigation-menu-info-heading">
+Chapter 8
+</span>
+<span class="guide-navigation-menu-info-subheading">
+Real Estate Exit Strategies
+</span>
+</div>
+</li>
+</a> </ul>
+</div>
+<section class="guide-navigation-neighbor guide-main-content">
+<div class="guide-page-container" id="guide-top">
+<div class="ubg-chapter-container">
+<div class="guide-section-container guide-chapter-2-heading-image guide-chapter-heading-image">
+<div class="guide-common-text-container guide-chapter-heading">
+<h2 class="chapter-number">Chapter 2:</h2>
+<h3 class="chapter-title">Real Estate Investing Education</h3>
+</div>
+<div class="guide-common-text-container guide-chapter-heading">
+<div class="guide-half-width-section">
+<p>
+This chapter is very important in your real estate investing journey. Without a clear understanding of the
+principles found in this chapter, you will be at a much higher risk for failure and defeat in your real estate
+dealings. In fact, if you only remember the information presented in one chapter of this entire guide, we
+sincerely hope it's this one. Let this be your first step toward a successful future in real estate investing.
+</p>
+</div>
+<div class="guide-half-width-section chapter-summary-container">
+<div class="chapter-summary">
+<h4>In this chapter, we'll cover the following themes:</h4>
+<table class="chapter-summary-table">
+<tr class="chapter-summary-table-row">
+<td>
+Don't Skip Your Real Estate Education
+</td>
+</tr>
+<tr class="chapter-summary-table-row">
+<td>
+Real Estate Terms and Mathematics
+</td>
+</tr>
+<tr class="chapter-summary-table-row">
+<td>
+Mentors, Gurus, and You
+</td>
+</tr>
+<tr class="chapter-summary-table-row">
+<td>
+Overcoming Fear
+</td>
+</tr>
+<tr class="chapter-summary-table-row">
+<td>
+Analysis Paralysis
+</td>
+</tr>
+<tr class="chapter-summary-table-row">
+<td>
+Don't Skip Your Real Estate Investing Education
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="guide-tweet-section">
+<div class="guide-tweet-details">
+<p class="guide-tweet-quote">
+A journey of a thousand miles begins with a single step.
+</p>
+<a class="guide-tweet-button button" href="https://twitter.com/intent/tweet?text=A journey of a thousand miles begins with a single step.-Lao Tzu">
+<svg class="icon " aria-labelledby="twitter-36451" role="img"><title id="twitter-36451">Tweet</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#twitter-3" /></svg> Tweet
+</a> <p class="guide-tweet-signature">-Lao Tzu</p>
+</div>
+</div>
+<div class="guide-section-container">
+<div class="guide-common-text-container">
+<p class="guide-common-text-paragraph">
+As we discussed at the end of chapter 1, real estate investing is not a get-rich-quick scheme. Just as any solid home
+needs a strong foundation, the same is true when it comes to your real estate education—a solid foundation is key to a
+long-lasting business.
+</p>
+<p class="guide-common-text-paragraph">
+This guide, while not exhaustive on every aspect of real estate investing, will help develop that foundation. We
+created it to serve as a first step in your real estate education—and as an introduction to the possibilities that
+come with real estate investment.
+</p>
+<p class="guide-common-text-paragraph">
+There are many different ways to get educated in real estate investing, and you don't need to pay hundreds or
+thousands of dollars to learn the business. Below, you'll find a list of sources that provide real estate
+investing education; be sure to consider each before making a final decision on how you're going to move forward.
+What works for one person may not work for another.
+</p>
+</div>
+<div class="guide-common-text-container">
+<h3 class="guide-common-header">
+Sources of Real Estate Investing Education
+</h3>
+<p class="guide-common-text-paragraph">
+<strong>Books—</strong>
+As the old saying goes, “Those who lead, read.” Books are fundamental in gaining an education in real estate and
+may be the most widespread learning method for investors. Real estate books are produced each year by the thousands,
+and every major bookstore in the world contains an entire section on real estate investing. Chances are, if there is a
+way to make money from real estate, there has been a book written about it. If reading books, however, is not your
+thing, you are in luck. Today, we live in a world where nearly every new book is also available as an audiobook. (Try
+audible.com for the web's largest selection.)
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Blogs—</strong>
+Blogs, short for what we used to call a “web log,” can be an amazing source of information. There are fantastic
+ones written on every topic you can imagine. There are many great blogs written by people living in the trenches of
+real estate that are worth checking out and learning from. Be sure to check out the BiggerPockets blog—in which dozens
+of expert contributors share their best tips and advice—as well as the BiggerPockets member blogs for great
+educational articles. On our website you may also view a list of our picks for the top 20 real estate blogs to
+discover new favorites.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Mentors—</strong>
+Perhaps the most powerful way to gain a good education in any field of study is through a mentor—and the same
+holds true in real estate. While there are dozens of professional real estate mentors who charge for their service,
+there are also millions of mentors all over the world who will charge you as little as a cup of coffee—they are your
+local investors. People enjoy sharing what they know, and seasoned real estate investors are no different. By
+introducing yourself to a successful local real estate investor whose career you’d like to emulate, you'll gain the
+opportunity to learn from someone in the field who knows your market and may ultimately become a partner someday.
+We'll talk more about mentors later in this chapter.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Podcasts—</strong>
+One of the newer ways people are learning about topics of interest like investing in real estate is through
+podcasts. A podcast is simply a recorded audio program similar to a radio show; it can essentially be produced by
+anyone with a computer and a microphone. A number of great podcasts have emerged in the past few years. Through
+virtually any device with internet connectivity or downloading capabilities, you can listen to hundreds of podcast
+shows and episodes covering a wide variety of real estate topics whenever you’d like—whether in the car, jogging, or
+lying in bed—for free. Be sure to check out the pitch-free BiggerPockets podcast, or search iTunes, Google Play Music,
+or several other podcast platforms for more options.
+</p>
+</div>
+</div>
+<div class="guide-get-started-ad">
+<div class="get-started-image-and-text-container">
+<img class="ad-cover-image" src="https://www.biggerpockets.com/assets/ubg/book-cover-5146913b89b3a2b6c2c6d48c6c4f97a8ecac9a4dc68f17f7651a38e206b27fda.jpg" />
+<div class="get-started-text-container">
+<h2 class="get-started-header">Get Started</h2>
+<p class="get-started-subtitle">Get the Ultimate Beginner&#39;s Guide as a convenient, downloadable PDF</p>
+<a target="_blank" class="button alternative guide-ad-button" href="/files/329/download">Give me the UBG</a>
+</div>
+</div>
+</div>
+<div class="guide-section-container guide-dark-background-container guide-background-image-2-1">
+<div class="guide-common-text-container">
+<h3 class="guide-common-header">
+Real Estate Mathematics: It’s No More Complex Than Junior High Math
+</h3>
+<p class="guide-common-text-paragraph">
+You don't need to be a college calculus student to understand real estate math. In fact, most of the math you'll need
+is grade-school level. This section is going to quickly touch on some of the basic concepts and math formulas you'll
+need in your real estate investing career.
+</p>
+</div>
+<div class="guide-common-text-container">
+<div class="guide-half-width-section">
+<h4 class="guide-common-header">
+Income
+</h4>
+<p class="guide-common-text-paragraph">
+Income is simply the amount of money that a property brings in. This math is perhaps the easiest of all: simply add up
+the amount of rent collected and any additional fees that come in.
+</p>
+<p class="guide-common-text-paragraph">
+For example—you own a rental house. The home rents for $1,000, and the tenant also pays $25 for the use of the garage.
+</p>
+<p class="guide-calculation-text-paragraph">
+$1000</br>
++ $25</br>
+$1025
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Your total income was $1,025.</strong>
+</p>
+<p class="guide-common-text-paragraph">
+Income could also include late fees, application fees, pet fees, laundry or other vending machines, and any other
+value your rental brings in.
+</p>
+</div>
+<div class="guide-half-width-section">
+<h4 class="guide-common-header">
+Expenses
+</h4>
+<p class="guide-common-text-paragraph">
+Expenses are simply the things within your investment that cost you money. For example, if the loan from the bank is
+$500 per month, maintenance is $100 per month, and the garbage bill for a home is $50 per month, then the total of
+these three expenses is $650.
+</p>
+<p class="guide-calculation-text-paragraph">
+$500</br>
++ $100</br>
++ $50</br>
+$650
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Your total expenses for this example are $650 for this particular month.</strong>
+</p>
+<p class="guide-common-text-paragraph">
+Keep in mind that there are many other
+expenses that you'll face as a real estate investor, including taxes, insurance costs, management costs, holding
+costs, capital expenses, and various others.
+</p>
+</div>
+</div>
+<div class="guide-common-text-container">
+<h4 class="guide-common-header">
+Cash Flow
+</h4>
+<p class="guide-common-text-paragraph">
+Cash flow is simply the amount of money left over at the end of the month after all expenses are paid. To determine
+the cash flow, simply subtract the total expenses from the total income:
+</p>
+<p class="guide-calculation-text-paragraph">
+$1025</br>
+- $650</br>
+$375
+</p>
+<p class="guide-common-text-paragraph">
+<strong>
+Your total cash flow for the above example property is $375 for the month. Let's look at a few more math equations.
+</strong>
+</p>
+</div>
+<div class="guide-common-text-container">
+<h4 class="guide-common-header">
+Return on Investment
+</h4>
+<p class="guide-common-text-paragraph">
+Return on investment (also known as ROI) is a fancy way of describing what interest rate you make on your money each
+year. For example, if you invested $250 and you made $250 from that investment (for a total of $500) over the course
+of one year, you would have made a 100 percent return on investment. Similarly, if you invested $5,000 and made an
+additional $2,500 over the course of the year (for a total of $7,500) you would have made a 50 percent return on your
+investment that year.
+</p>
+<p class="guide-common-text-paragraph">
+The actual calculation for return on investment looks like this:
+</p>
+<p class="guide-calculation-text-paragraph">
+ROI = (V1 – V0) / (V0)
+</p>
+<p class="guide-common-text-paragraph">
+(where V1 is the ending balance and V0 is the starting balance)
+</p>
+<p class="guide-common-text-paragraph">
+A simple scenario for using ROI to calculate an investment return would be as follows: On January 1, you put $1,000
+into a bank account. On the following January 1, you cash out the account for $1,100. Your ROI on the investment is:
+</p>
+<p class="guide-calculation-text-paragraph">
+ROI = (1100 – 1000) / (1000) = .1 (or 10%)
+</p>
+<p class="guide-common-text-paragraph">
+You start with $1,000 and end up with $1,100 after a year for a return of 10 percent.
+</p>
+<p class="guide-common-text-paragraph">
+These simple concepts present the foundations upon which almost all other real estate calculations are based. The rest
+will come in time, but bear in mind that most calculations will be related to these.
+</p>
+</div>
+</div>
+<div class="guide-section-container">
+<div class="guide-common-text-container">
+<h4 class="guide-common-header">
+Real Estate Investing Mentors
+</h4>
+<p class="guide-common-text-paragraph">
+A mentor is an individual who will teach and instruct you based on his or her first-hand experiences; mentors have
+lived this life before—walked it, talked it, and breathed it. Finding a mentor and learning from those who have come
+before you is one of the most important steps you can take in your real estate investing education—yet perhaps it’s
+the most misunderstood. This section will focus on what makes a great mentor and how to find one. It will also explore
+whether or not you should pay for one.
+</p>
+</div>
+<div class="guide-common-text-container">
+<h4 class="guide-common-header">
+Non–Real Estate Mentors in Your Life
+</h4>
+<p class="guide-common-text-paragraph">
+In your life, who have been your mentors? I'm not talking in regard to real estate—but simply in life in general.
+There are a number of individuals who may have served a mentoring role at one time or another, such as:
+</p>
+<ul class="guide-common-list">
+<li class="guide-common-list-item">Parents</li>
+<li class="guide-common-list-item">Grandparents</li>
+<li class="guide-common-list-item">Siblings</li>
+<li class="guide-common-list-item">Professors</li>
+<li class="guide-common-list-item">Bosses and managers</li>
+</ul>
+<p class="guide-common-text-paragraph">
+Among all these mentors, there’s a common thread: an existing relationship.
+</p>
+<p class="guide-common-text-paragraph">
+These individuals are part of your life due to an existing relationship. Perhaps a mentorship grew organically from
+it. Most likely, it wasn't forced or manipulated. There was no formal mentoring agreement written and signed ahead of
+time; no payment is required for mentorship. The only requirement was the relationship.
+</p>
+</div>
+<div class="guide-common-text-container">
+<div class="guide-half-width-section">
+<h4 class="guide-common-header">
+How to Find an Organic Real Estate Mentor
+</h4>
+<p class="guide-common-text-paragraph">
+For those who have been led to believe that the only mentors available are the kind that cost $19,997.97, the concept
+of an organic mentor may seem profound. After all, why would a seasoned, professional real estate investor bother to
+help a newbie? You may find yourself asking, "Won't I just be wasting their time?"
+</p>
+<p class="guide-common-text-paragraph">
+There are a variety of reasons why a seasoned real estate investor may choose to help a newbie, but the fact is, many
+do. Whether it's with the goal of passing on a legacy or simply having someone with similar interests to talk with or
+the prospect of future deals, organic mentorships happen each and every day. These mentorships are usually identified
+by another name, though: friendships.
+</p>
+<p class="guide-common-text-paragraph">
+On the other side of the spectrum, there are new wannabe investors who tend to approach relationships as if the mentor
+should feel lucky to work with them. This entitled attitude leads many of these newbies to the BiggerPockets forums
+where they proudly announce that they are looking for a mentor to teach them all they know, offering nothing in return
+but the privilege of working with them.
+</p>
+</div>
+<div class="guide-half-width-section guide-background-image-2-2 guide-common-image"></div>
+</div>
+<div class="guide-common-text-container">
+<p class="guide-common-text-paragraph">
+In other words:
+</p>
+<p class="guide-common-text-paragraph">
+<em>
+Hi, my name is (so and so) and I'm looking for someone to invest a significant portion of their time and energy
+into teaching me how to get rich. I bring nothing of value to this relationship, but I expect you to jump at the
+chance to help me because you probably have nothing better to do. Most likely, I'll just disappear once I realize
+I can't get rich overnight, leaving you exhausted and irritated. So, who's first!?
+</em>
+</p>
+<p class="guide-common-text-paragraph">
+If you’d like to attract a mentor into your life, seek ways to organically foster a mentor-mentee relationship. Try
+these tips for building those relationships:
+</p>
+<p class="guide-common-text-paragraph">
+Concentrate first on establishing a relationship with seasoned investors who you would like to learn from. A mentor
+doesn't need to be Donald Trump or Robert Kiyosaki. A mentor could be the investor down the street who owns a
+half-dozen rentals and works a full-time job or an active BiggerPockets member who donates his or her time by
+answering questions in the forums. The key is finding an individual who you want to learn from in the field you want
+to enter. While you can glean a lot of information from any successful investor, attempting to build a deep mentorship
+with a mediocre house flipper when all you want to do is buy and hold small multifamily properties, is probably not a
+great first step. Seek out individuals who are doing exactly what you want to do.
+</p>
+<p class="guide-common-text-paragraph">
+Make yourself valuable in a way that is meaningful (read: profitable) to the other person. What can you offer someone
+whom you want to learn from? Do you have a free weekend to help them clean up a vacant unit? Do you have web-design or
+cold-calling skills? Value comes in many different forms to many different people. Make it your goal to provide solid
+value to every relationship you’re in. Additionally, you don't necessarily need to do everything or anything for free.
+If you are handy, perhaps simply being a dependable, honest, and fair maintenance supplier will be enough to build
+that relationship. Maybe a well-designed website could be your value proposition. Whatever it is—remember, provide
+value.
+</p>
+<p class="guide-common-text-paragraph">
+Don’t expect anything in return. You didn't build your early mentorships (parents, grandparents, etc.) expecting
+something in return. You built them because you were simply going through life. Provide value, and in return, you may
+receive something back—but don't expect it.
+</p>
+<p class="guide-common-text-paragraph">
+Always think win-win; don't simply focus on what’s in it for you. Your mentor may be far more successful than you, but
+that doesn't mean you can't help her or him become even more successful. As the popular phrase states, "A rising tide
+lifts all ships."
+</p>
+<p class="guide-common-text-paragraph">
+Most successful investors are willing to help, but only after you have proven that you are worthy of their
+involvement. A would-be mentor does not want to waste time. A mentor-mentee relationship is a huge undertaking for
+both people, and no real estate expert wants to devote a significant amount of time and effort building a relationship
+only to have it fall apart when the student gets bored. Prove that you are in this for the long haul by being
+persistent, building knowledge, and actively growing outside of the relationship you are building.
+</p>
+</div>
+<div class="guide-common-text-container">
+<div class="guide-half-width-section">
+<h4 class="guide-common-header">
+Should You Pay for Mentorship?
+</h4>
+<p class="guide-common-text-paragraph">
+A mentor’s role is to make the journey from point A to point B a little quicker and a little easier for the mentee.
+For many wannabe investors, paying for a mentor is the quickest and easiest way to find one. But should you?
+</p>
+<p class="guide-common-text-paragraph">
+If you've hung around BiggerPockets for any length of time, you'll understand that it is our core belief that you do
+not need a paid mentor or guru to help you succeed. There is a vast amount of information out there, most of it
+available for free, that you can use to learn and grow as a real estate investor. Furthermore, online spaces like
+BiggerPockets forums offer the ability to ask your questions and receive answers from many actual, seasoned real
+estate investors. Think about it—there are over over a million users on our site, and many of them are active on our
+Q&amp;A forums. You can pay a single person thousands of dollars to be there to answer your questions, or you can just
+ask them for free on our forums and get answers from your peers who are active in the field. We tend to believe that
+the input of many is certainly superior to that of one person.
+</p>
+<p class="guide-common-text-paragraph">
+Of course, the choice to pay for mentorship or training is 100 percent up to you. A product or training from a guru is
+intended to improve your processes and make your journey easier, not necessarily shorter. The theory is, if you spend
+$500 on a product that helps you achieve $1,000 in profit, then the product is worth it. The problem is that most
+individuals simply choose to buy a product looking for a shortcut and do not actually put into practice the lessons
+learned.
+</p>
+<p class="guide-common-text-paragraph">
+Before ever paying for training, we recommend that you first exhaust all options in trying to find a local mentor, as
+discussed above. A paid mentor may be unfamiliar with the intricacies of your local real estate market, while a local
+mentor will usually have a much better grasp on the situation.
+</p>
+<p class="guide-common-text-paragraph">
+If you cannot find a local mentor, next seek out education via books, forums, blogs, and other sources. Besides
+pointing you in the right direction, this will also help guarantee your full commitment. After all, you don't want to
+pay hundreds (or thousands) of dollars just to lose interest the next week.
+</p>
+</div>
+<div class="guide-half-width-section guide-background-image-2-3 guide-common-image"></div>
+</div>
+</div>
+<div class="guide-tweet-section">
+<div class="guide-tweet-details">
+<p class="guide-tweet-quote">
+If you are searching for the right opportunity to grow as a real estate investor, before searching the internet for the perfect solution or pulling out your credit card to hire the perfect coach, search yourself. Make sure you know what you are looking for, and why, and then match your needs with the solution that fits and feels the best.
+</p>
+<a class="guide-tweet-button button" href="https://twitter.com/intent/tweet?text=If you are searching for the right opportunity to grow as a real estate investor, before searching the internet for the perfect solution or pulling out your credit card to hire the perfect coach, search yourself. Make sure you know what you are looking for, and why, and then match your needs with the solution that fits and feels the best.—Chris Clothier, Investor">
+<svg class="icon " aria-labelledby="twitter-3ced4" role="img"><title id="twitter-3ced4">Tweet</title><use xlink:href="https://www.biggerpockets.com/assets/icons-2514645b525b1275eb7b99a9edb714c13b4465c8cc3c034fd6c3fa3d78b25379.svg#twitter-3" /></svg> Tweet
+</a> <p class="guide-tweet-signature">—Chris Clothier, Investor</p>
+</div>
+</div>
+<div class="guide-section-container">
+<div class="guide-common-text-container">
+<p class="guide-common-text-paragraph">
+When you have a firm grasp on the type of investing you want to get into—then, and only then, should you consider
+paying for mentorship. Before you do, however, be sure to check out the Guru Review Forum on BiggerPockets. Be very
+wary of shining reviews online from members who seem to have shown up at a site just to defend some program (these are
+often paid members of the organizations themselves). Additionally, there are many gurus out there who simply exist to
+re-package free information and sell it for exorbitant amounts, claiming to have secrets or some new methodology. Do
+your research ahead of time to avoid working with these scammers.
+</p>
+<p class="guide-common-text-paragraph">
+Finally, before paying for a mentor or program, follow this one final step: wait! Oftentimes, individuals promoting a
+program dispense pitches and pressure that is effective at striking emotional nerves. As a result, you may end up
+buying something out of fear or excitement, rather than prudence. Wait a few weeks to see if you are still as
+interested. Many times, when the daze from the salesman’s shiny new suit wears off, the program suddenly seems less
+appealing. After all, there is a reason they want you to “Sign up TODAY!”
+</p>
+<p class="guide-common-text-paragraph">
+Paid mentors can provide accountability (“I spent thousands... I better make it worth it!”) and good information that
+is neatly packaged for easy consumption. Many investors do find success working with paid mentors. However, many do
+not. By focusing on finding local mentors, building your knowledge, and researching your potential paid mentor before
+paying, you will increase your chances of finding success. Remember: there is not a product, coach, or mentor who can
+guarantee your success. Your success is strictly up to you. A mentor—paid or not—is merely a guide to help you get to
+your goal as safely and quickly as possible. The choice to do so is up to you.
+</p>
+</div>
+<div class="guide-common-text-container">
+<div class="guide-half-width-section">
+<h3 class="guide-common-header">
+Fear: A Roadblock in Real Estate Education
+</h3>
+<p class="guide-common-text-paragraph">
+For every successful real estate investor out there, there are dozens of people who were too fearful and uncertain to
+ever actually do a deal. If you are just beginning, chances are you have some fears, as well. But don't worry; fear is
+a natural part of life and is designed to help us avoid bad decisions and the consequences derived therefrom.
+</p>
+<p class="guide-common-text-paragraph">
+However, fear will stop you from ever getting started if you let it. The purpose of this section is to address
+potential fears and teach you how to overcome them and succeed in spite of them.
+</p>
+</div>
+<div class="guide-half-width-section">
+<div class="guide-common-quote">
+<div class="guide-common-quote-text">I never worry about action, but only inaction.</div>
+– Winston Churchill
+</div>
+</div>
+</div>
+<div class="guide-common-text-container">
+<h4 class="guide-common-header">
+Six Steps to Help You Overcome Fear
+</h4>
+<p class="guide-common-text-paragraph">
+Get Off Your Duff—If you are looking to real estate investing as a means to get out of a job you hate, then you need
+to start replacing the income from your job with money from your real estate activities. Develop a plan, and work that
+plan every day—just like you would get up and go to work every day for a paycheck. If you expect to do one deal and
+then permanently retreat to a beach somewhere, wake up. Successful real estate investors work hard, and you will need
+to do the same. Instead of working for a company you're not fond of, you'll be working for yourself—both a blessing
+and a curse.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Commit—</strong>
+STOP buying courses and other materials or seeking out mentors or coaches until you are committed to step one
+above. If you are not committed, no course, class, or trainer will get you any closer to your goal. Almost all real
+estate courses focus on the mechanics, but the real action is in what’s going on between your ears. When you can get
+that under control, it won’t matter what technique you use; you will find success as a real estate investor! Realize
+that you can spend a lot of money having someone show you the mechanics, but if you are not willing to deal with the
+issue of conditioning, you’ll just be wasting money.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Start Participating—</strong>
+BiggerPockets is filled with knowledgeable real estate investors who are willing to share what
+they know for free. Sign up for an account and interact daily. Don't just lurk; participate, ask questions, connect
+with others, and build relationships. If you are afraid to ask questions, then you’re probably going to be afraid to
+speak to a seller or to negotiate with a big city developer. Interactions are part of an investor’s life, so the
+faster you can overcome this fear, the more successful you'll be. Being visible to your peers online and off will
+ensure you'll stay at the front of their minds—and that's great for business.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Learn the Lingo—</strong>
+Without knowing the lingo of a real estate investor, you will always be afraid to sound like you don't
+know what you are talking about. Understanding the lingo will help build confidence and make it exponentially easier
+to talk to people and land deals.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Learn the Concepts—</strong>Once you have the lingo down, you need to start learning the concepts. If you can't adequately
+explain what a debt-to-income ratio is or why 70 percent ARV is important in a house flip, you need to spend more time
+learning. Fear is often a result of being unclear. If you need help, look back at chapter 3 for places to look for
+more knowledge. And once you have a good knowledge base, help teach someone else. Teaching others a difficult concept
+helps cement it in your own mind.
+</p>
+<p class="guide-common-text-paragraph">
+<strong>Watch Others—</strong>
+By surrounding yourself with investors who do the kind of investing you want to do, you will naturally
+begin picking up on the traits that make them successful. If this means working nights and weekends for a local
+investor for free, then that's the price of admission. You’ll find that you quickly overcome fear when you’re helping
+others accomplish success, which will help give you the confidence to eventually strike out on your own. All
+investment involves some degree of risk, and real estate investing is no exception. While risk is unavoidable, it can
+be managed through proper preparation (which you have already begun by reading this guide). The hardest thing to do in
+any new venture is to get started. At some point, you need to follow Nike’s advice and "Just Do It!"
+</p>
+</div>
+<div class="guide-common-text-container">
+<h3 class="guide-common-header">
+Analysis Paralysis
+</h3>
+<p class="guide-common-text-paragraph">
+It's easy to get stuck in what we call analysis paralysis, which is when you find yourself in an endless cycle of
+research, plan, evaluate, research, plan, evaluate—leaving you paralyzed, unable to take action. In other words, it’s
+reading books without implementing what you’ve learned, reading blogs without somehow engaging, and meeting investors
+without interacting with them. Typically, analysis paralysis is caused by fear of screwing something up.
+</p>
+<p class="guide-common-text-paragraph">
+It’s easy to convince yourself that you don’t know as much as you should, which may prevent you from taking action.
+But remember, you don’t need to know every single niche buying technique, and you don't need to become an expert
+before getting your hands dirty. Focus on one area of investing, become an expert in it and then move on to another
+technique or area. We'll cover the various real estate niches in the next chapter of this guide.
+</p>
+<p class="guide-common-text-paragraph">
+Once you know where you want to start, you need to learn the ropes. The BiggerPockets forums are an excellent place to
+learn about all facets of real estate investing. Ask questions. Learn the basics, and start planning.
+</p>
+<p class="guide-common-text-paragraph">
+If you feel like you are not completely ready to begin, realize that you most likely never will unless you take
+action. At the time, it will seem scary, and you probably won’t initially be able to answer every question from
+sellers and buyers. However, this position will force you to learn the answers to those questions (remember, that's
+what this site is for).
+</p>
+<p class="guide-common-text-paragraph">
+When you're fearful, it’s so much easier to spend time and money buying another course or reading about what other
+people are doing than it is to dive in. But holding back won’t get you anywhere. Get educated, get your plan together,
+and start taking action. As you do, you will quickly start to feel right in your new skin. You will actually begin to
+feel like a real estate investor! Your confidence will skyrocket, and you will get even better at what you do.
+</p>
+</div>
+<div class="guide-common-text-container">
+<h3 class="guide-common-header">
+Moving On
+</h3>
+<p class="guide-common-text-paragraph">
+Beginning your investment career with a solid foundation based on a solid real estate education is vital to the
+success of your career. There are many different ways you can learn and grow as an investor, so choose a path and
+start learning.
+</p>
+<p class="guide-common-text-paragraph">
+The next chapter will help further your education by teaching you important basics of the real estate business,
+including real estate niches and the strategies available to you. Once you learn these, you'll be ready to start with
+the all important planning that we've been talking about.
+</p>
+<p class="ubg-pagination-links">
+<footer class="footer-section"><a href="#guide-top">Back to top</a><span class="separator">|</span><a href="/guides/ultimate-real-estate-investing-guide/investment-niches-and-strategies">Next: Chapter 3 - Real Estate Investments: Niches and Strategies</a></footer>
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="global_signup" class="modal-container closeable"><div class="modal">
+<header></header>
+<div class="twothousand17ify log-in-signup-wrapper">
+<div class="log-in-sign-up-container log-in-active">
+<div class="log-in-sign-up-selector">
+<a class="log-in-select" href="/login">Log in</a>
+<a class="sign-up-select" href="/signup">Sign up</a>
+</div>
+<div class="log-in-sign-up-inner">
+<section class="log-in-container">
+<form class="login-form" autocomplete="off" action="https://www.biggerpockets.com/account/authenticate" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="m2fTzb0ZTD4oGgA+qf8wbzvBWkj6zaJmWFQi1sc+v5J1ijoTc/FF6D/owLgfu8xvas5qdlqc6RB96DrE3PvTLA==" />
+<input type="hidden" name="webinar_registration" id="webinar_registration" />
+<h2 class="heading">Log in</h2>
+<p>
+<label for="login-form-username">Email</label>
+<input type="text" name="username" id="login-form-username" size="25" required="required" />
+</p>
+<p class="password">
+<label for="login-form-password">Password</label>
+<input type="password" name="password" id="login-form-password" size="25" required="required" />
+</p>
+<p class="forgot-password"><a href="/account/forgot_password">Forgot password?</a></p>
+<p class="button-container"><input type="submit" name="commit" value="Log in" class="button" data-disable-with="Logging in..." /></p>
+</form>
+<div class="fb-login">
+<p id="fb-login-text">If you signed up for BiggerPockets via Facebook, you can log in with just one click!</p>
+<p id="fb-login-button-container">
+<a id="fb-login-button" class="button facebook-log-in-button secondary" href="/facebook/login">Log in with Facebook</a>
+</p>
+</div>
+<div class="oauth-sign-up-container-bottom ">
+<div class="sign-up-section-seperator">
+<span class="notice">Or</span>
+</div>
+<a class="button m google-log-in-button" data-track-click="true" rel="nofollow" data-method="post" href="/auth/google_oauth2">
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+<title>btn_google_dark_normal_ios</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.168 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.084 0" in="shadowBlurOuter2" type="matrix" result="shadowMatrixOuter2"></feColorMatrix>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+<feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+<feMergeNode in="SourceGraphic"></feMergeNode>
+</feMerge>
+</filter>
+<rect id="path-2" x="0" y="0" width="40" height="40" rx="2"></rect>
+<rect id="path-3" x="5" y="5" width="38" height="38" rx="1"></rect>
+</defs>
+<g id="Google-Button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+<g id="9-PATCH" sketch:type="MSArtboardGroup" transform="translate(-608.000000, -219.000000)"></g>
+<g id="btn_google_dark_normal" sketch:type="MSArtboardGroup" transform="translate(-1.000000, -1.000000)">
+<g id="button" sketch:type="MSLayerGroup" transform="translate(4.000000, 4.000000)" filter="url(#filter-1)">
+<g id="button-bg">
+<use fill="#4285F4" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+<use fill="none" xlink:href="#path-2"></use>
+<use fill="none" xlink:href="#path-2"></use>
+<use fill="none" xlink:href="#path-2"></use>
+</g>
+</g>
+<g id="button-bg-copy">
+<use fill="#FFFFFF" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+<use fill="none" xlink:href="#path-3"></use>
+<use fill="none" xlink:href="#path-3"></use>
+<use fill="none" xlink:href="#path-3"></use>
+</g>
+<g id="logo_googleg_48dp" sketch:type="MSLayerGroup" transform="translate(15.000000, 15.000000)">
+<path d="M17.64,9.20454545 C17.64,8.56636364 17.5827273,7.95272727 17.4763636,7.36363636 L9,7.36363636 L9,10.845 L13.8436364,10.845 C13.635,11.97 13.0009091,12.9231818 12.0477273,13.5613636 L12.0477273,15.8195455 L14.9563636,15.8195455 C16.6581818,14.2527273 17.64,11.9454545 17.64,9.20454545 L17.64,9.20454545 Z" id="Shape" fill="#4285F4" sketch:type="MSShapeGroup"></path>
+<path d="M9,18 C11.43,18 13.4672727,17.1940909 14.9563636,15.8195455 L12.0477273,13.5613636 C11.2418182,14.1013636 10.2109091,14.4204545 9,14.4204545 C6.65590909,14.4204545 4.67181818,12.8372727 3.96409091,10.71 L0.957272727,10.71 L0.957272727,13.0418182 C2.43818182,15.9831818 5.48181818,18 9,18 L9,18 Z" id="Shape" fill="#34A853" sketch:type="MSShapeGroup"></path>
+<path d="M3.96409091,10.71 C3.78409091,10.17 3.68181818,9.59318182 3.68181818,9 C3.68181818,8.40681818 3.78409091,7.83 3.96409091,7.29 L3.96409091,4.95818182 L0.957272727,4.95818182 C0.347727273,6.17318182 0,7.54772727 0,9 C0,10.4522727 0.347727273,11.8268182 0.957272727,13.0418182 L3.96409091,10.71 L3.96409091,10.71 Z" id="Shape" fill="#FBBC05" sketch:type="MSShapeGroup"></path>
+<path d="M9,3.57954545 C10.3213636,3.57954545 11.5077273,4.03363636 12.4404545,4.92545455 L15.0218182,2.34409091 C13.4631818,0.891818182 11.4259091,0 9,0 C5.48181818,0 2.43818182,2.01681818 0.957272727,4.95818182 L3.96409091,7.29 C4.67181818,5.16272727 6.65590909,3.57954545 9,3.57954545 L9,3.57954545 Z" id="Shape" fill="#EA4335" sketch:type="MSShapeGroup"></path>
+<path d="M0,0 L18,0 L18,18 L0,18 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+</g>
+<g id="handles_square" sketch:type="MSLayerGroup"></g>
+</g>
+</g>
+</svg><span>Continue with Google</span></a>
+</div>
+</section>
+<section class="sign-up-container ">
+<div class="onboarding-header-logo">
+<a class="onboarding-logo-link" href="https://www.biggerpockets.com/"><object type="image/svg+xml" data="https://www.biggerpockets.com/assets/logo/logo-dark-92cf3b20aaaa756f1609fea61fa9f24c8f0c069ca445fa3dc9c0a4c9a68a3893.svg" fallback="https://www.biggerpockets.com/assets/logo/logo-dark-dccf917ca8e8a93f82426e56560dbcdd6c8491b3cfaa80bc474a66d7d8b48f40.png"></object></a>
+</div>
+<form class="signup-form" autocomplete="off" action="/signup/create" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EvOpUM7l/U+I0ISvAxBpvR5SmWzFzCy9iHtcdXSVY5i13iHgrpHzIx2QJF+/67jUaHpsUd6AW9ADaBdgzdG+Hg==" />
+<input type="hidden" name="return_to" id="return_to" />
+<input type="hidden" name="cta_source" id="f1faa7e0-086b-4e6d-8192-abdc8a7b2c02" />
+<input type="hidden" name="signed_up_via" id="signed_up_via" />
+<div class="aux-signup-field">
+<label for="name">Name (required)</label>
+<input type="text" name="name" id="name" value="" class="required" />
+</div>
+<h1 class="primary-prompt">Let&#39;s get started</h1>
+<p class="sign-up-secondary-prompt">We just need a few details to get you set up and ready to go!</p>
+<p><label for="social_user_full_name">Full Name</label><input size="25" required="required" type="text" name="social_user[full_name]" id="social_user_full_name" /><span class="subtext">Use your real name</span></p>
+<p class="">
+<label for="social_user_email">Email</label>
+<input size="25" required="required" type="text" name="social_user[email]" id="social_user_email" />
+</p>
+<p class=""><label for="social_user_password">Password</label><input size="64" required="required" minlength="8" type="password" name="social_user[password]" id="social_user_password" /><span class="subtext">Use at least 8 characters. Using a phrase of random words (like: <em>paper Dog team blue</em>) is secure and easy to remember.</span></p>
+<p class="user-tos">
+<span class="subtext ">
+By signing up, you indicate that you agree to the <a href="/terms">BiggerPockets Terms &amp; Conditions</a>.
+</span>
+</p>
+<p class="button-container">
+<input type="submit" name="commit" value="Let&#39;s go!" class="button" data-disable-with="Please wait..." />
+</p>
+</form>
+<div class="oauth-sign-up-container-bottom ">
+<div class="sign-up-section-seperator">
+<span class="notice">Or</span>
+</div>
+<a class="button m google-log-in-button" data-track-click="true" rel="nofollow" data-method="post" href="/auth/google_oauth2">
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+<title>btn_google_dark_normal_ios</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.168 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+<feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+<feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.084 0" in="shadowBlurOuter2" type="matrix" result="shadowMatrixOuter2"></feColorMatrix>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+<feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+<feMergeNode in="SourceGraphic"></feMergeNode>
+</feMerge>
+</filter>
+<rect id="path-2" x="0" y="0" width="40" height="40" rx="2"></rect>
+<rect id="path-3" x="5" y="5" width="38" height="38" rx="1"></rect>
+</defs>
+<g id="Google-Button" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+<g id="9-PATCH" sketch:type="MSArtboardGroup" transform="translate(-608.000000, -219.000000)"></g>
+<g id="btn_google_dark_normal" sketch:type="MSArtboardGroup" transform="translate(-1.000000, -1.000000)">
+<g id="button" sketch:type="MSLayerGroup" transform="translate(4.000000, 4.000000)" filter="url(#filter-1)">
+<g id="button-bg">
+<use fill="#4285F4" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+<use fill="none" xlink:href="#path-2"></use>
+<use fill="none" xlink:href="#path-2"></use>
+<use fill="none" xlink:href="#path-2"></use>
+</g>
+</g>
+<g id="button-bg-copy">
+<use fill="#FFFFFF" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+<use fill="none" xlink:href="#path-3"></use>
+<use fill="none" xlink:href="#path-3"></use>
+<use fill="none" xlink:href="#path-3"></use>
+</g>
+<g id="logo_googleg_48dp" sketch:type="MSLayerGroup" transform="translate(15.000000, 15.000000)">
+<path d="M17.64,9.20454545 C17.64,8.56636364 17.5827273,7.95272727 17.4763636,7.36363636 L9,7.36363636 L9,10.845 L13.8436364,10.845 C13.635,11.97 13.0009091,12.9231818 12.0477273,13.5613636 L12.0477273,15.8195455 L14.9563636,15.8195455 C16.6581818,14.2527273 17.64,11.9454545 17.64,9.20454545 L17.64,9.20454545 Z" id="Shape" fill="#4285F4" sketch:type="MSShapeGroup"></path>
+<path d="M9,18 C11.43,18 13.4672727,17.1940909 14.9563636,15.8195455 L12.0477273,13.5613636 C11.2418182,14.1013636 10.2109091,14.4204545 9,14.4204545 C6.65590909,14.4204545 4.67181818,12.8372727 3.96409091,10.71 L0.957272727,10.71 L0.957272727,13.0418182 C2.43818182,15.9831818 5.48181818,18 9,18 L9,18 Z" id="Shape" fill="#34A853" sketch:type="MSShapeGroup"></path>
+<path d="M3.96409091,10.71 C3.78409091,10.17 3.68181818,9.59318182 3.68181818,9 C3.68181818,8.40681818 3.78409091,7.83 3.96409091,7.29 L3.96409091,4.95818182 L0.957272727,4.95818182 C0.347727273,6.17318182 0,7.54772727 0,9 C0,10.4522727 0.347727273,11.8268182 0.957272727,13.0418182 L3.96409091,10.71 L3.96409091,10.71 Z" id="Shape" fill="#FBBC05" sketch:type="MSShapeGroup"></path>
+<path d="M9,3.57954545 C10.3213636,3.57954545 11.5077273,4.03363636 12.4404545,4.92545455 L15.0218182,2.34409091 C13.4631818,0.891818182 11.4259091,0 9,0 C5.48181818,0 2.43818182,2.01681818 0.957272727,4.95818182 L3.96409091,7.29 C4.67181818,5.16272727 6.65590909,3.57954545 9,3.57954545 L9,3.57954545 Z" id="Shape" fill="#EA4335" sketch:type="MSShapeGroup"></path>
+<path d="M0,0 L18,0 L18,18 L0,18 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+</g>
+<g id="handles_square" sketch:type="MSLayerGroup"></g>
+</g>
+</g>
+</svg><span>Continue with Google</span></a>
+</div>
+</section>
+<section class="why-create-container">
+<div class="why-create-content">
+<h1 class="heading">Why create an account?</h1>
+<div class="content-body">
+<p>Receive a free digital download of The Ultimate Beginner's Guide to Real Estate Investing.</p>
+<p>Connect with 1,000,000+ real estate investors!</p>
+<p>Find local real estate meetups and events in your area.</p>
+<p>Start analyzing real estate properties, we do the math for you.</p>
+</div>
+<div class="content-end">It's free!</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div></div>
+<meta name="tagging-info" data-tagging-info="{&quot;content_tag&quot;:{}}"></meta>
+<footer class="main-footer main-footer-with-explore-app-links">
+<div class="footer-sections">
+<div class="footer-section">
+<h4 class="heading">Explore</h4>
+<ul>
+<li><a href="/pro">Membership</a></li>
+<li><a href="/forums">Community</a></li>
+<li><a href="/blog/">Education</a></li>
+<li><a href="/forums/517-marketplace">Marketplace</a></li>
+<li><a href="/calc">Tools</a></li>
+<li><a href="/files">FilePlace</a></li>
+<li><a href="/rei">REI Resources</a></li>
+<li><a href="/perks">Perks</a></li>
+<li><a href="/rei/glossary">Glossary</a></li>
+<li><a href="/reviews">Reviews</a></li>
+<li><a href="https://itunes.apple.com/us/app/biggerpockets/id657773184?mt=8">iOS App</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.biggerpockets.bp_android&amp;hl=en_US">Android App</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4 class="heading">Company</h4>
+<ul>
+<li><a href="/about">About Us</a></li>
+<li><a href="/press">Press</a></li>
+<li><a href="/advertise">Advertising</a></li>
+<li><a href="/careers">Careers</a></li>
+<li><a href="/stats">Stats</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4 class="heading">Important</h4>
+<ul>
+<li><a href="/editorial-guidelines">Editorial Guidelines</a></li>
+<li><a href="/terms">Terms of Use</a></li>
+<li><a href="/rules">Rules</a></li>
+<li><a href="/privacy">Privacy</a></li>
+<li><a href="/faq">FAQ</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h4 class="heading">Social</h4>
+<ul>
+<li><a href="https://facebook.com/BiggerPockets">Facebook</a></li>
+<li><a href="https://twitter.com/biggerpockets">Twitter</a></li>
+<li><a href="https://www.youtube.com/user/BiggerPockets">YouTube</a></li>
+<li><a href="https://www.instagram.com/biggerpockets">Instagram</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-sitename">
+<object type="image/svg+xml" data="https://www.biggerpockets.com/assets/logo/logo-1ac27e1791bcad86c95d3326c6c66a014be277075f97e9799825ba209612583a.svg" fallback="https://www.biggerpockets.com/assets/logo/logo-7fd2f5a159814b628a99a6bc5a2514f225dec3965eadfb2714a29823a004f3be.png"></object>
+<span class="copyright">&copy; 2004-2020 BiggerPockets, LLC.</span>
+<span class="rights-reserved">All Rights Reserved.</span>
+</div>
+</footer>
+<script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "name" : "BiggerPockets",
+      "logo" : "https://biggerpockets.s3.amazonaws.com/assets/logo.png",
+      "url" : "https://www.biggerpockets.com",
+      "sameAs" : [ "https://www.facebook.com/BiggerPockets",
+        "http://twitter.com/biggerpockets",
+        "http://plus.google.com/+biggerpockets/",
+        "http://instagram.com/biggerpockets/",
+        "http://www.youtube.com/user/BiggerPockets",
+        "http://www.linkedin.com/company/biggerpockets-inc.",
+        "http://www.pinterest.com/biggerpockets/",
+        "http://soundcloud.com/biggerpockets"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.biggerpockets.com/search?term={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+</script>
+<script src="https://www.biggerpockets.com/assets/application-e23bd791ad99217d57f54203f18fa91cc968ade0bca8d96470d07d998b2b8657.js"></script>
+<script src="https://www.biggerpockets.com/assets/calculators.2017-3fe1009b859f2d29fdb3f239c97d0c433fcf0b7608dd8c1f827bab0eb65bda1a.js"></script>
+<script>
+      window.analytics.track("Test: nav_hide_topics_header", { path: "/guides/ultimate-real-estate-investing-guide/real-estate-investing-education", referrer: "https://www.google.com/", date: "2020-09-07 12:22:48 +0000", variant: false });window.analytics.track("use nav sign up modal", { path: "/guides/ultimate-real-estate-investing-guide/real-estate-investing-education", referrer: "https://www.google.com/", date: "2020-09-07 12:22:48 +0000", enabled: false });window.analytics.track("show easy sign up", { path: "/guides/ultimate-real-estate-investing-guide/real-estate-investing-education", referrer: "https://www.google.com/", date: "2020-09-07 12:22:48 +0000", enabled: false });window.analytics.track("show sign up endorsement", { path: "/guides/ultimate-real-estate-investing-guide/real-estate-investing-education", referrer: "https://www.google.com/", date: "2020-09-07 12:22:48 +0000", enabled: false });
+    </script>
+<script async src="https://cdn.ranksci.com/biggerpockets-461491.min.js" type="text/javascript"></script>
+</body>
+</html>
